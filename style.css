@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/********** header ***********/
+.header{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	color: #fff;
+}
+.header a{
+	font-size: 30px;
+	float: left;
+}
+.login-btn{
+	width: 100px;
+	padding: 8px 0;
+	outline: none !important;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	color: #fff;
+	margin-left: 65%;
+	margin-top: 10px;
+}
+.login-btn:hover{
+	color: #efefef;
+}
+.header h1{
+	padding-top: 180px;
+	padding-bottom: 0;
+	font-size: 55px;
+}
+.header p{
+	margin: 18px 0;
+}
+.input-group{
+	width: 90% !important;
+	max-width: 500px;
+	border-radius: 30px;
+	background: #fff;
+	margin: auto;
+	padding: 2px;
+}
+.form-control{
+	border: 0 !important;
+	border-radius: 30px !important;
+	margin: 2px;
+	box-shadow: none !important;
+}
+.input-group-text{
+	width: 100px;
+	background-image: linear-gradient(#00ff7e,#1f3d90);
+	border: 0 !important;
+	color: #fff !important;
+	padding: 0 25px !important;
+	border-radius: 30px !important;
+	box-shadow: none !important;
+}
+
+/********** features ***********/
+
+.features{
+	padding: 100px 0;
+}
+.features h1{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.feature-img img{
+	width: 100%;
+	height: 200px;
+}
+.price{
+	width: 50px;
+	height: 50px;
+	background: #ff5722;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+	position: absolute;
+	left: 20px;
+	bottom: -25px;
+}
+.feature-img{
+	position: relative;
+}
+.rating{
+	padding: 3px;
+	float: right;
+	background: #fff;
+	bottom: -1px;
+	right: 0;
+	position: absolute;
+}
+.features .fa{
+	font-size: 15px;
+	color: #ff5722;
+}
+.feature-details{
+	padding: 20px;
+	text-align: justify;
+}
+.feature-details h4{
+	font-weight: 600;
+	margin-top: 20px;
+}
+.feature-box{
+	box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+	margin-bottom: 30px;
+}
+
+/********** gallery ***********/
+
+.gallery{
+	padding: 100px 0;
+	background: #efefef;
+}
+.gallery h1{
+	padding-left: 35%;
+	padding-right: 35%;
+	padding-bottom: 30px;
+}
+.gallery-box img{
+	width: 100%;
+	height: 250px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.gallery-box img:hover{
+	transform: scale(1.1);
+}
+.gallery-box h4{
+	display: block;
+	color: #fff;
+	text-shadow: -2px 2px 2px #000;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.gallery-box{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+/********** banner ***********/
+
+.banner{
+	height: 80%;
+	background-image: url(images/11.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 14%;
+	padding-bottom: 14%;
+}
+.banner-highlights{
+	padding: 70px 0;
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	color: #fff;
+}
+.booking-btn{
+	width: 120px;
+	padding: 8px 0;
+	outline: none !important;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	color: #fff;
+	margin-top: 20px;
+}
+.booking-btn:hover{
+	color: #efefef;
+}
+
+/********** users-feedback ***********/
+
+.users-feedback h1{
+	padding: 100px 35% 30px;
+}
+.user-review{
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+	padding-bottom: 50px;
+	margin-bottom: 100px;
+}
+.user-review p{
+	padding: 50px 10px 10px 10px;
+}
+.users-feedback img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	margin: -62% 0 20px 40%;
+}
+.user-review p::before{
+	content: '\201d';
+	display: block;
+	position: absolute;
+	font-size: 100px;
+	color: #6495ed;
+	font-family: sans-serif;
+	left: 44%;
+	top: -20px;
+}
+
+/********** footer ***********/
+
+.footer{
+	padding: 100px 20px 15px;
+	background-image: linear-gradient(#2d557d, #9610fb);
+	color: #fff;
+}
+.footer-logo{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.footer h4{
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.footer p{
+	font-size: 12px;
+	text-align: justify;
+	padding-right: 35px;
+}
+.footer .row .fa{
+	padding-right: 20px;
+	font-size: 15px;
+}
+.footer hr{
+	margin-top: 10px;
+	background: #efefef;
+}
+.fa-heart{
+	margin: 0 5px;
+	color: #f44336;
+}
+.footer .copyright{
+	text-align: center;
+	font-size: 16px;
+}
+
+/*********** responsive *********/
+
+@media (max-width: 768px){
+	.users-feedback img{
+		margin: -45% 0 20px 40%;
+	}
+	.login-btn{
+		margin-top: -45px;
+	}
+}
